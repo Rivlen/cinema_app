@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    background: black;
+}
+
+.center {
+    margin-left: 23%;
+    margin-right: 23%;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.top-left {
+    flex: 1; /* Take up remaining space */
+    display: flex;
+    justify-content: flex-start; /* Align logo to the start */
+    margin-right: 20px; /* Add spacing between logo and info */
+}
+
+.top-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo img {
+    width: 180px; /* Adjust width of logo as needed */
+    height: auto; /* Maintain aspect ratio */
+}
